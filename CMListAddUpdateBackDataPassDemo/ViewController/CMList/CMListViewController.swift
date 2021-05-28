@@ -22,8 +22,8 @@ class CMListViewController: BaseViewController,UITableViewDataSource,UITableView
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
-        tableView.estimatedRowHeight = tableView.rowHeight
-        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.estimatedRowHeight = tableView.rowHeight
+//        tableView.rowHeight = UITableView.automaticDimension
     }
 
     override func viewWillAppear(_ animated: Bool) {
